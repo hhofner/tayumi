@@ -3,19 +3,25 @@
     <UApp>
       <UHeader>
         <template #left>
-          <RouterLink to="/" class="mr-8">
-            <h1>Tayumi</h1>
-          </RouterLink>
           <div class="flex gap-4">
-            <RouterLink to="/" class="flex flex-col justify-center items-center">
+            <RouterLink
+              to="/"
+              class="flex flex-col justify-center items-center"
+            >
               <UIcon name="solar-home-2-bold" />
               <small>Home</small>
             </RouterLink>
-            <RouterLink to="/" class="flex flex-col justify-center items-center">
+            <RouterLink
+              to="/"
+              class="flex flex-col justify-center items-center"
+            >
               <UIcon name="solar-users-group-rounded-bold" />
               <small>Local</small>
             </RouterLink>
-            <RouterLink to="/" class="flex flex-col justify-center items-center">
+            <RouterLink
+              to="/"
+              class="flex flex-col justify-center items-center"
+            >
               <UIcon name="solar-soundwave-bold" />
               <small>Federated</small>
             </RouterLink>
